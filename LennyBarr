@@ -1,0 +1,5 @@
+On ouvre notre VM Windows Server 2022 depuis Virtual Box
+On atterit sur Windows Server Manager, dans la pancarte à gauche, on clic sur AD DS, puis clic droit dans le bloc au milieu sur notre serveur > "Active Directory Administrative Center"
+Dans la pancarte à gauche encore, clic droit sur (dans notre cas) "domaine(local)" > *New* > *Organizational Unit* > nom : Wilders_students, puis on valide (options à compléter si nécessaire)
+Clic gauche cette fois-ci sur "domaine(local)" > clic droit *Wilders_students* > *New* > *Group* > on met le nom "Students" (ici j'ai coché *Scope = Domain local* histoire de ne pas trop déborder) > on valide
+De nouveau clic droit sur **Wilders_students** > *New* > *User* > on ajoute Lenny Barr, on descend avec la molette jusqu'à *Member of* où nous spécifions l'appartenance au groupe **Students** (sans oublier de remplir les champs obligatoires)
